@@ -11,6 +11,7 @@ public class BrowserLaunchTest {
 
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
+        System.out.printf(driver.getTitle());
 
         driver.quit();
 
