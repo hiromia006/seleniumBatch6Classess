@@ -3,7 +3,7 @@ package selenium.class6;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestNgTest {
+public class TestNgTest extends  BrowserLaunch{
     @Test
     public void testCases() {
         Assert.assertEquals("10", "10");
@@ -19,19 +19,19 @@ public class TestNgTest {
         Assert.assertEquals("10", "10");
     }
 
-    @Test
-    public void loginShouldSucceed(){
-
-    }
-
-    @Test
-    public void loginShouldFail(){
-
-    }
-
-    @Test
-    public void validUsernameField(){
-
-    }
+//    @Test
+//    public void loginShouldSucceed(){
+//
+//    }
+//
+//    @Test
+//    public void loginShouldFail(){
+//
+//    }
+//
+//    @Test
+//    public void validUsernameField(){
+//
+//    }
 
 }
